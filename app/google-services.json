@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "517313868611",
+    "firebase_url": "https://alexbloodcenter.firebaseio.com",
+    "project_id": "alexbloodcenter",
+    "storage_bucket": "alexbloodcenter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517313868611:android:a53f0ecb8cc2c0c8",
+        "android_client_info": {
+          "package_name": "com.think360.alexbloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517313868611-gpqq5he6rdkpluhser07se965t86kuud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.think360.alexbloodbank",
+            "certificate_hash": "b47d52169ca28c639793c5bc996fceaf8f3ada72"
+          }
+        },
+        {
+          "client_id": "517313868611-n9c8pvp2ief4kvfqrb9gf7cgllv8hdfi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZO2_iuuenxB8IT_lYsAEHX2jM2b74bC0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517313868611-n9c8pvp2ief4kvfqrb9gf7cgllv8hdfi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

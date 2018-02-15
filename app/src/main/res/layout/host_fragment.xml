@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@android:color/white"
+    android:focusableInTouchMode="true">
+  <!--  <FrameLayout
+        android:background="#F6EDE4"
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+        <TextView
+            android:id="@+id/tvAchivedAward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="#A01428"
+            android:drawablePadding="12dp"
+            android:drawableLeft="@drawable/not_awad"
+            android:text="Achieved gallon grad award" />
+    </FrameLayout>-->
+    <TextView
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:gravity="left|center"
+        android:textColor="#101010"
+        android:text="Verified Host" />
+  <TextView
+      android:visibility="gone"
+      android:layout_marginTop="12dp"
+      android:layout_marginLeft="12dp"
+      android:layout_marginStart="12dp"
+      android:layout_marginRight="12dp"
+      android:layout_marginEnd="12dp"
+      android:id="@+id/tvTitleNoData"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="14sp"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:textColor="#101010"
+      android:text="No Data" />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_marginTop="8dp"
+        android:id="@+id/swiperefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="LinearLayoutManager" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@android:color/white"
+    android:focusableInTouchMode="true">
+
+<ScrollView
+    android:fillViewport="true"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+     <!--   <FrameLayout
+            android:background="#F6EDE4"
+            android:layout_width="match_parent"
+            android:layout_height="42dp">
+            <TextView
+                android:id="@+id/tvAchivedAward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textColor="#A01428"
+                android:drawablePadding="12dp"
+                android:drawableLeft="@drawable/not_awad"
+                android:text="Achived gallon grad award" />
+        </FrameLayout>-->
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginEnd="12dp"
+            android:id="@+id/tvThankMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textSize="14sp"
+            android:textColor="#292929"
+            android:text="Thank you for hosting a blood drive with CBC.Please submit your blood drive information to track your progress." />
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:id="@+id/tvTitleRequire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="#0A0A0A"
+            android:text="Host Requirement:" />
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginEnd="12dp"
+            android:id="@+id/tvTitleAdvice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textSize="14sp"
+            android:textColor="#0A0A0A"
+            android:text="Set up a blood drive, outside of your normal high school drive" />
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:id="@+id/tvHighSchoolDrive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:drawablePadding="8dp"
+            android:textColor="#3F3F3F"
+            android:drawableLeft="@drawable/heart"
+            android:text="Blood drive must collect at least 20 units of blood." />
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:id="@+id/tvCBCMobileBloodDrive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#3F3F3F"
+            android:drawablePadding="8dp"
+            android:drawableLeft="@drawable/heart"
+            android:text="A CBC Recruiter will work with you directly to customize a personalized recruitment plan." />
+
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:background="#F6EDE4"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginEnd="12dp"
+                android:textSize="14sp"
+                android:id="@+id/etLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Location" />
+            <EditText
+                android:focusable="false"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginEnd="12dp"
+                android:drawableRight="@drawable/calender"
+                android:textSize="14sp"
+                android:id="@+id/etBloodDriveDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Blood Drive Date" />
+
+            <EditText
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginEnd="12dp"
+                android:textSize="14sp"
+                android:id="@+id/etCBCRecruiterName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="CBC Recruiter Name" />
+
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginEnd="12dp"
+            android:id="@+id/tvInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textSize="14sp"
+            android:textColor="#292929"
+            android:text="Your personal dashboard will be updated once you submit this form.Please note all that achievements are subject to review and verification" />
+        <FrameLayout
+            android:id="@+id/ffRecordThisAchievement"
+            android:layout_marginTop="34dp"
+            android:layout_marginBottom="12dp"
+            android:background="#A61D31"
+            android:layout_width="match_parent"
+            android:layout_height="42dp">
+            <TextView
+                android:id="@+id/tvRecordThisAchievement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:text="Record this achievement" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_marginBottom="65dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical" />
+</FrameLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="12dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginBottom="12dp"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/white"
+    android:elevation="4dp"
+    app:cardCornerRadius="4dp">
+<LinearLayout
+    android:layout_marginTop="12dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginBottom="12dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvUserVolunteerHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="left|center"
+        android:textColor="#AF3749"
+        android:text="Bob Smith Volunteered 5 hours in fdsfdsfs" />
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:gravity="left|center"
+        android:textColor="#2A2A2A"
+        android:layout_marginTop="2dp"
+        android:text="Kelli" />
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:gravity="left|center"
+        android:textColor="#2A2A2A"
+        android:layout_marginTop="2dp"
+        android:text="on 10/04/2017" />
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/ivVeri"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:clickable="false" />
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:id="@+id/tvVerified"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_gravity="center"
+            android:gravity="left|center"
+            android:textColor="#282828"
+            android:text="Verified" />
+        <Space
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:background="@drawable/fb_btn"
+            android:id="@+id/btnFb"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="25dp"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:text="Share" />
+
+        <TextView
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/tweet_btn"
+            android:gravity="center"
+            android:id="@+id/btnTweet"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text="Tweet" />
+    </LinearLayout>
+
+</LinearLayout>
+</android.support.v7.widget.CardView>

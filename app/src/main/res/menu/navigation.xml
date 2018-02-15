@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home_hover"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/navigation_donation"
+        android:icon="@drawable/donation_hover"
+        android:title="Donate"
+       />
+
+    <item
+        android:id="@+id/navigation_hours"
+        android:icon="@drawable/hour_hover"
+        android:title="Volunteer"
+      />
+
+    <item
+        android:id="@+id/navigation_efforts"
+        android:icon="@drawable/efforts_hover"
+        android:title="Recruit"
+       />
+
+    <item
+        android:id="@+id/navigation_blood"
+        android:icon="@drawable/blood_hover"
+        android:title="Host"
+       />
+
+
+
+</menu>
