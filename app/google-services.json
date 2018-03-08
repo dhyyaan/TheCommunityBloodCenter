@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "517313868611",
-    "firebase_url": "https://alexbloodcenter.firebaseio.com",
-    "project_id": "alexbloodcenter",
-    "storage_bucket": "alexbloodcenter.appspot.com"
+    "project_number": "278577268477",
+    "firebase_url": "https://the-community-blood-cent-ac542.firebaseio.com",
+    "project_id": "the-community-blood-cent-ac542",
+    "storage_bucket": "the-community-blood-cent-ac542.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:517313868611:android:a53f0ecb8cc2c0c8",
+        "mobilesdk_app_id": "1:278577268477:android:2b1dc0ae4c4ea127",
         "android_client_info": {
-          "package_name": "com.think360.alexbloodbank"
+          "package_name": "com.thecommunitybloodcenter"
         }
       },
       "oauth_client": [
         {
-          "client_id": "517313868611-gpqq5he6rdkpluhser07se965t86kuud.apps.googleusercontent.com",
+          "client_id": "278577268477-7oidd9lpeek921aepajlfbguvl68idib.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.think360.alexbloodbank",
-            "certificate_hash": "b47d52169ca28c639793c5bc996fceaf8f3ada72"
+            "package_name": "com.thecommunitybloodcenter",
+            "certificate_hash": "4f6427cf230da985e859a840f79126b55eb41e4a"
           }
         },
         {
-          "client_id": "517313868611-n9c8pvp2ief4kvfqrb9gf7cgllv8hdfi.apps.googleusercontent.com",
+          "client_id": "278577268477-t9m3opc0156a5ttv6f3b78869mtbm2m6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAZO2_iuuenxB8IT_lYsAEHX2jM2b74bC0"
+          "current_key": "AIzaSyC3cwPRRhaOJc37GfcM-UBmpKLpdCQvnxA"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "517313868611-n9c8pvp2ief4kvfqrb9gf7cgllv8hdfi.apps.googleusercontent.com",
+              "client_id": "278577268477-t9m3opc0156a5ttv6f3b78869mtbm2m6.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

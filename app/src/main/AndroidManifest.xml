@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.think360.alexbloodbank">
+    package="com.thecommunitybloodcenter">
     <supports-screens
         android:anyDensity="true"
         android:largeScreens="true"
@@ -25,7 +25,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".activities.SplashScreenActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -35,7 +35,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginRegTabActivity"
+            android:name=".activities.LoginRegTabActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait"  />
@@ -43,25 +43,25 @@
 
      <activity
             android:launchMode="singleTask"
-            android:name=".BloodCenterActivity"
+            android:name=".activities.BloodCenterActivity"
             android:label="@string/title_activity_blood_center"
             android:theme="@style/AppTheme.NoActionBar"
              android:screenOrientation="portrait" />
-        <service android:name="com.think360.alexbloodbank.notification.MyFirebaseMessagingService">
+        <service android:name="com.thecommunitybloodcenter.notification.MyFirebaseMessagingService">
 
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
-        <service android:name="com.think360.alexbloodbank.notification.MyFirebaseInstanceIDService">
+        <service android:name="com.thecommunitybloodcenter.notification.MyFirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.think360.alexbloodbank.com.vansuita.pickimage.provider"
+            android:authorities="com.thecommunitybloodcenter.com.vansuita.pickimage.provider"
             android:exported="false"
             android:grantUriPermissions="true"
             tools:replace="android:authorities">

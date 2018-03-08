@@ -9,31 +9,26 @@
     android:background="@android:color/white"
     android:focusableInTouchMode="true"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.think360.alexbloodbank.fragments.LoginFragment">
+    tools:ignore="HardcodedText"
+    tools:context="com.thecommunitybloodcenter.fragments.LoginFragment">
 
 <ScrollView
     android:fillViewport="true"
     android:clickable="true"
     android:focusable="true"
-
     android:focusableInTouchMode="true"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-  >
+    android:orientation="vertical">
     <LinearLayout
         android:layout_marginTop="12dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-      />
     <android.support.design.widget.TextInputLayout
         android:id="@+id/ilFName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/inputLayoutEmail"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:layout_marginStart="@dimen/activity_horizontal_margin">
 
@@ -52,9 +47,6 @@
         android:id="@+id/ilLName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/inputLayoutEmail"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:layout_marginStart="@dimen/activity_horizontal_margin">
 
@@ -63,7 +55,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:focusable="true"
-
             android:inputType="textEmailAddress"
             android:hint="Last Name"
             android:ems="10"
@@ -74,9 +65,6 @@
         android:id="@+id/ilUName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/inputLayoutEmail"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:layout_marginStart="@dimen/activity_horizontal_margin">
 
@@ -95,9 +83,6 @@
         android:id="@+id/ilDB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/inputLayoutEmail"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:layout_marginStart="@dimen/activity_horizontal_margin">
 
@@ -117,9 +102,6 @@
         android:id="@+id/ilEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/inputLayoutEmail"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:layout_marginStart="@dimen/activity_horizontal_margin">
 
@@ -139,9 +121,6 @@
         android:id="@+id/ilMobile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/inputLayoutEmail"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:layout_marginStart="@dimen/activity_horizontal_margin">
 
@@ -168,9 +147,6 @@
         android:id="@+id/ilPwd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/inputLayoutEmail"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:layout_marginStart="@dimen/activity_horizontal_margin"
         app:passwordToggleEnabled="true">
@@ -180,7 +156,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:focusable="true"
-
             android:inputType="textPassword"
             android:hint="Password"
             android:ems="10"
@@ -190,9 +165,6 @@
         android:id="@+id/ilCPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/inputLayoutEmail"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:layout_marginStart="@dimen/activity_horizontal_margin"
         app:passwordToggleEnabled="true">
@@ -226,9 +198,6 @@
             android:id="@+id/ilSSchool"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/inputLayoutEmail"
             android:layout_marginEnd="@dimen/activity_horizontal_margin"
             android:layout_marginStart="@dimen/activity_horizontal_margin">
 
@@ -271,16 +240,8 @@
             app:civ_shadow="true"
             app:civ_shadow_radius="5"
             app:civ_shadow_color="#CAFFFF"
-            android:id="@+id/cIvProfilePic"
+            android:id="@+id/cIvProfilePic" />
 
-            />
-   <!--     <ImageView
-            android:layout_marginTop="16dp"
-            android:id="@+id/ivProfileImageEdit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-           android:layout_gravity="end|right"
-            app:srcCompat="@drawable/edit_profile" />-->
 
     </FrameLayout>
 
@@ -298,10 +259,10 @@
 </LinearLayout>
 </ScrollView>
     <ProgressBar
-
+        android:layout_marginTop="350dp"
         android:id="@+id/progressBar"
         android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|center_vertical" />
+        android:layout_gravity="center|top" />
 </FrameLayout>

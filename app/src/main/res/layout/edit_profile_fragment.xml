@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -7,7 +8,8 @@
     android:clickable="true"
     android:focusable="true"
     android:background="@android:color/white"
-    android:focusableInTouchMode="true">
+    android:focusableInTouchMode="true"
+    tools:ignore="HardcodedText" >
 
 <ScrollView
     android:fillViewport="true"
@@ -19,24 +21,8 @@
 <LinearLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
-  <!--  <FrameLayout
-        android:background="#F6EDE4"
-        android:layout_width="match_parent"
-        android:layout_height="42dp">
-        <TextView
-            android:id="@+id/tvAchivedAward"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:textAllCaps="true"
-            android:textColor="#A01428"
-            android:drawablePadding="12dp"
-            android:drawableLeft="@drawable/not_awad"
-            android:text="Achived gallon grad award" />
-    </FrameLayout>-->
     <FrameLayout
         android:layout_marginTop="12dp"
         android:layout_width="match_parent"
@@ -57,7 +43,8 @@
             android:textSize="12sp"
             android:layout_height="25dp"
             android:textColor="#ffffff"
-            android:text="Edit" />
+            android:text="Edit"
+           />
     <FrameLayout
         android:layout_gravity="center"
         android:layout_width="wrap_content"
@@ -68,13 +55,12 @@
             android:layout_height="120dp"
             android:src="@drawable/no_img"
             app:civ_border_color="#AAAAAA"
-            app:civ_border_width="5dp"
+            app:civ_border_width="3dp"
             app:civ_shadow="true"
             app:civ_shadow_radius="5"
             app:civ_shadow_color="#CAFFFF"
             android:id="@+id/cIvProfilePic"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-           />
+            android:layout_marginTop="@dimen/activity_vertical_margin" />
         <Button
             android:enabled="false"
             android:layout_marginTop="16dp"
@@ -193,9 +179,6 @@
         android:id="@+id/ilSSchool"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/inputLayoutEmail"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:layout_marginStart="@dimen/activity_horizontal_margin">
 

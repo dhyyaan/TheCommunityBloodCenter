@@ -12,11 +12,11 @@
     android:focusableInTouchMode="true">
 
 
-    <com.think360.alexbloodbank.customview.NonSwipeableViewPager
+    <com.thecommunitybloodcenter.customview.NonSwipeableViewPager
         android:layout_weight="1"
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="0dp" />
 
 
     <android.support.design.widget.BottomNavigationView

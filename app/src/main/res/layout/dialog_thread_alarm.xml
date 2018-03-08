@@ -1,52 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
     android:layout_gravity="center"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-
+    tools:ignore="HardcodedText"
+    android:orientation="vertical"
+    android:minHeight="180dp">
 
     <TextView
+        android:layout_gravity="center|top"
         android:id="@+id/tvMsg"
-        android:layout_marginTop="32dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="14sp"
+        android:textSize="16sp"
         android:gravity="center"
+        android:textColor="@android:color/black"
         android:text="Registration successfully completed.Would you like to go for  login?" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tvMsg"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="81dp"
+        android:layout_marginTop="84dp"
         android:orientation="horizontal">
-        <Button
+
+        <TextView
             android:id="@+id/btnNo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
             android:fontFamily="sans-serif"
             android:text="No"
-            android:layout_weight="1"
-            android:textAllCaps="false"
+            android:gravity="center"
+            android:layout_weight="0.5"
             android:textColor="@android:color/white"
-            android:textSize="14sp"
-            android:background="#000000"
-       />
-        <Button
+            android:textSize="16sp"
+            android:background="#000000" />
+        <TextView
             android:id="@+id/btnYes"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
             android:fontFamily="sans-serif"
             android:text="Yes"
-            android:layout_weight="1"
-            android:textAllCaps="false"
+            android:gravity="center"
+            android:layout_weight="0.5"
             android:textColor="#FFFFFF"
-            android:textSize="14sp"
+            android:textSize="16sp"
             android:background="@color/colorAccent"/>
         </LinearLayout>
 </LinearLayout>

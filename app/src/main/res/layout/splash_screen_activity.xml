@@ -6,6 +6,6 @@
     android:layout_height="match_parent"
     app:srcCompat="@drawable/splash"
     android:scaleType="centerCrop"
-    tools:context="com.think360.alexbloodbank.SplashScreenActivity">
+    tools:context="com.thecommunitybloodcenter.activities.SplashScreenActivity">
 
 </ImageView>

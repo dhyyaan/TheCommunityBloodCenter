@@ -8,7 +8,7 @@
     android:background="@android:color/white"
     android:focusableInTouchMode="true"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.think360.alexbloodbank.fragments.LoginFragment">
+    tools:context="com.thecommunitybloodcenter.fragments.LoginFragment">
 
 <ScrollView
     android:layout_width="match_parent"

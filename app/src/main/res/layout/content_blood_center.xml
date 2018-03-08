@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.think360.alexbloodbank.BloodCenterActivity"
+    tools:context="com.thecommunitybloodcenter.activities.BloodCenterActivity"
     tools:showIn="@layout/app_bar_blood_center"
     android:id="@+id/fragContainer2"
     android:layout_width="match_parent"
@@ -12,7 +12,8 @@
     android:background="@android:color/white"
     android:clickable="true"
     android:focusable="true"
-    android:focusableInTouchMode="true"  >
+    android:focusableInTouchMode="true"
+    tools:ignore="HardcodedText" >
     <FrameLayout
         android:id="@+id/ffAchivedAward"
         android:background="#F6EDE4"
@@ -27,6 +28,7 @@
             android:textAllCaps="true"
             android:textColor="#A01428"
             android:drawablePadding="12dp"
+            android:drawableStart="@drawable/not_awad"
             android:drawableLeft="@drawable/not_awad"
             android:text="NOT ACHIEVED GALLON GARD AWARD" />
     </FrameLayout>

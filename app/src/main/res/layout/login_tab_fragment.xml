@@ -9,7 +9,8 @@
     android:background="@android:color/white"
     android:focusableInTouchMode="true"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.think360.alexbloodbank.fragments.LoginFragment">
+    tools:ignore="HardcodedText"
+    tools:context="com.thecommunitybloodcenter.fragments.LoginFragment">
 
 <LinearLayout
     android:layout_width="match_parent"
@@ -18,8 +19,7 @@
     android:clickable="true"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/tvDes"
@@ -31,14 +31,12 @@
         android:textSize="14sp"
         android:gravity="center"
         android:textColor="#191919"
-        android:text="Login to view your dashboard and record your achievements!"/>
+        android:text="Login to view your dashboard and record your achievements!"
+        />
     <android.support.design.widget.TextInputLayout
         android:id="@+id/ilUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/inputLayoutEmail"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:layout_marginStart="@dimen/activity_horizontal_margin"
         android:layout_marginTop="@dimen/activity_vertical_margin">
@@ -57,9 +55,6 @@
         android:id="@+id/ilPwd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/inputLayoutEmail"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
         android:layout_marginStart="@dimen/activity_horizontal_margin"
         android:layout_marginTop="@dimen/activity_vertical_margin"
@@ -107,12 +102,12 @@
         android:text="Submit" />
 </LinearLayout>
     <ProgressBar
+        android:layout_marginTop="50dp"
         android:visibility="gone"
-        android:layout_marginBottom="150dp"
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|center_vertical" />
+        android:layout_gravity="center|top" />
 </FrameLayout>
 
 

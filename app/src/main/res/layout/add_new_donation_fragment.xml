@@ -17,27 +17,9 @@
     android:layout_height="match_parent">
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
- <!--   <FrameLayout
-        android:id="@+id/ffAchivedAward"
-        android:background="#F6EDE4"
-        android:layout_width="match_parent"
-        android:layout_height="42dp">
-        <TextView
-            android:id="@+id/tvAchivedAward"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:textSize="14sp"
-            android:gravity="center"
-            android:textAllCaps="true"
-            android:textColor="#A01428"
-            android:drawablePadding="12dp"
-            android:drawableLeft="@drawable/not_awad"
-            android:text="Achived gallon grad award" />
-    </FrameLayout>-->
     <TextView
         android:layout_marginTop="12dp"
         android:layout_marginLeft="12dp"
